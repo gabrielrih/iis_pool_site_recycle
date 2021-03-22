@@ -18,5 +18,5 @@ if %errorLevel% EQU 0 (
 :EXECUTAPROCESSO
 C:
 cd %windir%\System32\inetsrv
-appcmd.exe recycle apppool /apppool.name:poolName
+appcmd.exe recycle apppool /apppool.name:poolname
 timeout 5
